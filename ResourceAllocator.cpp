@@ -10,7 +10,7 @@ Resourceallocator::Resourceallocator()
 	{
 		isrush.push_back(false);
 	}
-// Default values of resource object attributes
+// Default values of resource object attribute
 }
 
 bool Resourceallocator::IsRushHour(float t)
