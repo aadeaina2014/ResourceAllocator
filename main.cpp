@@ -1,11 +1,7 @@
 // main Application Driver File for time resource allocation class
-
-
 #include "Resourceallocator.h"
 #include <iostream>
 using namespace std;
-
-
 
 void queryServer(Resourceallocator *p)
 {
@@ -22,15 +18,11 @@ void queryServer(Resourceallocator *p)
 		{
 			cout << fixed << setprecision(2)<< " "<<timeStamp << " \t\t\tRush Hour" << endl;
 		}
-
 		else
 		{
 			cout << fixed << setprecision(2)<< " "<<timeStamp<< " \t\t\tNot Rushour" << endl;
-
 		}
-
 	}
-
 }
 
 int main()
@@ -54,7 +46,5 @@ int main()
 	queryServer(timeServer);  // Query server for all available time slots
 	delete timeServer;
 	system("pause");
-
-	
 	return EXIT_SUCCESS;
 }
